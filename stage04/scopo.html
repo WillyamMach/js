@@ -1,6 +1,25 @@
 <body>
     <script>
-    
+        // X is not defined
+        console.log("Antes do x = " + x);
+
+        {
+            // caso seja let ou const da erro, caso seja var (variavel global), da ccerto
+            var x = 0;
+
+            
+        }
+        console.log("depois do x = " + x);
+
+        let y = 1;
+        console.log("Antes do y = " + y);
+        {
+            // caso seja let ou const da erro, caso seja var (variavel global), da ccerto
+            y = 0;
+        }
+
+
+        console.log("depois do y = " + y);
 
     </script>
 </body>
