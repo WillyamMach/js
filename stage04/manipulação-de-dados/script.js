@@ -35,3 +35,29 @@ console.log(array.join("_"))
 phrase = "Oi tudo bem com voce?";
 console.log(phrase.includes("bem"))
 console.log(phrase.includes("maça"))
+
+// criando um array a partir de um construtor
+let myArray = new Array('a', 'b', 'c');
+console.log(myArray)
+
+word = 'manipulacao'
+console.log(Array.from(word))
+
+let techs = ["html", "css", "js"];
+
+// adiciona um elemento ao fim do vetor
+techs.push('AngularJs')
+// adiciona um elemento ao comeco do vetor
+techs.unshift("sql")
+// tira um valor do fim do vetor
+techs.pop()
+//tira um valor do comeco do veotr
+techs.shift();
+// pegar somente alguns valroes do array
+// console.log(techs.slice(0, 2))
+// remover mais de um indices do array
+// console.log(techs.splice(0, 1))
+
+let index = techs.indexOf('css');
+console.log(index)
+console.log(techs)
