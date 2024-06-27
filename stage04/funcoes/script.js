@@ -32,13 +32,13 @@
 
 // callback function
 
-function myName(name) {
-    name();
-}
+// function myName(name) {
+//     name();
+// }
 
-myName(
-    () => {
-        console.log('name');
-    }
-) 
+// myName(
+//     () => {
+//         console.log('name');
+//     }
+// ) 
 
