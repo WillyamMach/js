@@ -21,3 +21,19 @@ switch (expression) {
         console.log("Vazio")
         break;
 }
+
+// throw try e catch
+
+function sayMyName(name) {
+    if(name === '') {
+        throw new Error("Nome está vazio");
+    }
+
+}
+
+try {
+    sayMyName('')
+
+} catch(e) {
+    console.log(e)
+}
